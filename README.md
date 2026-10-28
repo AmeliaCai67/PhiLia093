@@ -1,5 +1,9 @@
 # Philia · 代码即视频
 
+<p align="center">
+  <img src="docs/cover.png" width="320" alt="Philia · 昔涟" />
+</p>
+
 > 用 **Remotion**（React 写代码）复刻《崩坏：星穹铁道》翁法罗斯「记忆归档终端」的一段演出。
 >
 > 做这个的起因很朴素：那一段剧情里，**昔涟把三千万世的记忆喂给一个婴孩般的机械造物**，
@@ -67,6 +71,7 @@ ffmpeg -f lavfi -i anullsrc=r=44100:cl=mono -t 1 -c:a aac \
 |---|---|---|
 | 全部动画代码 | ✅ | 画面基本由代码绘制 |
 | `src/backgrounds/` | ✅ | 纯 React/CSS 绘制的背景组件 |
+| 封面插画 `docs/cover.png` | ✅ | **同人插画**，仅作展示，不在 MIT 许可范围内 |
 | 原声音频 | ❌ | 版权原因，需自备 |
 | 游戏截图 / 立绘 | ❌ | 同上 |
 | 中间产物（抽帧、扫描、成片） | ❌ | 体积大，与代码无关 |
