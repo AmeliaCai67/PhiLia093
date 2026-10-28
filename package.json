@@ -1,0 +1,28 @@
+{
+  "name": "philia",
+  "version": "0.1.0",
+  "private": false,
+  "description": "代码即视频 —— 用 Remotion 复刻《崩坏：星穹铁道》翁法罗斯「记忆归档终端」演出",
+  "scripts": {
+    "dev": "remotion studio",
+    "render": "remotion render Philia out/philia-preview.mp4",
+    "render:preview": "remotion render Philia out/philia-preview.mp4 --frames=0-900"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "typescript": "^5.6.3"
+  },
+  "license": "MIT",
+  "author": "AmeliaCai67",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AmeliaCai67/PhiLia093.git"
+  },
+  "homepage": "https://github.com/AmeliaCai67/PhiLia093"
+}

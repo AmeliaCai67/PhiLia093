@@ -1,0 +1,32 @@
+# 依赖与产物（不要提交）
+node_modules/
+out/
+build/
+dist/
+
+# 素材（版权原因不入库；保留 materials/README.md 说明）
+materials/*
+!materials/README.md
+
+# 中间产物
+extract2/
+scan2/
+scan2full/
+analysis/
+references/
+checkA3/
+check5/
+
+# 媒体文件（一律不入库）
+*.mp4
+*.mov
+*.m4a
+*.mp3
+*.wav
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
